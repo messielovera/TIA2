@@ -71,11 +71,11 @@ public class PanelInicioActividad extends JPanel implements ActionListener{
 		panel_1.setLayout(new BorderLayout());
 		
 		txtrEstaEsUna = new JTextArea();
-		txtrEstaEsUna.setText("La empresa Thai Utensils vende juegos de cubiertos. El SKU corresponde a un juego de cubiertos. Los históricos de ventas muestran que la demanda del "
-				+ "producto es estacionaria y puede aproximarse a una distribución normal ND. La información se muestra a continuación:" + "\n" + "\n" + "- La demanda que no se cubre en un periodo puede cubrirse en periodos "
-				+ "subsiguientes. El inventario inicial es de 150 SKUs. " + "\n" + "- Cualquier orden de producción toma 1 mes en producirse (si hay la capacidad) independientemente de las cantidades ordenadas. No se puede adquirir "
-				+ "producto de fuentes externas." + "\n" + "- Inicialmente hay 15 trabajadores disponibles en la fábrica. Un trabajador en la planta nunca está inactivo y por lo tanto produce todo el tiempo. No pueden tenerse más "
-				+ "de 20 trabajadores ni menos de 5 en ningún periodo. " + "\n" + "- El salario mensual de un trabajador es de $80/trabajador. Contratar un trabajador cuesta $20 y despedirlo cuesta $100. ");
+		txtrEstaEsUna.setText("La empresa Thai Utensils vende juegos de cubiertos. El SKU corresponde a un juego de cubiertos. Los historicos de ventas muestran que la demanda del "
+				+ "producto es estacionaria y puede aproximarse a una distribucion normal ND. La informacion se muestra a continuacion:" + "\n" + "\n" + "- La demanda que no se cubre en un periodo puede cubrirse en periodos "
+				+ "subsiguientes. El inventario inicial es de 150 SKUs. " + "\n" + "-Cualquier orden de produccion toma 1 mes en producirse (si hay la capacidad) independientemente de las cantidades ordenadas. No se puede adquirir "
+				+ "producto de fuentes externas." + "\n" + "-Inicialmente hay 15 trabajadores disponibles en la fabrica. Un trabajador en la planta nunca esta inactivo y por lo tanto produce todo el tiempo. No pueden tenerse mas "
+				+ "de 20 trabajadores ni menos de 5 en ningun periodo. " + "\n" + "- El salario mensual de un trabajador es de $80/trabajador. Contratar un trabajador cuesta $20 y despedirlo cuesta $100. ");
 		txtrEstaEsUna.setEditable(false);
 		txtrEstaEsUna.setLineWrap(true);
 		txtrEstaEsUna.setWrapStyleWord(true);

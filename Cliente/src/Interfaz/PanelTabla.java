@@ -45,7 +45,7 @@ public class PanelTabla extends JPanel{
 						tablaResultados[i][j].setEditable(false);
 					}
 					if( i == 5 ){
-						tablaResultados[i][j] = new JTextArea("Producción (SKU)");
+						tablaResultados[i][j] = new JTextArea("Produccion (SKU)");
 						tablaResultados[i][j].setEditable(false);
 					}
 					if( i == 6 ){
@@ -91,10 +91,10 @@ public class PanelTabla extends JPanel{
 	}
 	
 	public void actualizar(){
-		NormalDistribution nd = new NormalDistribution(100,100); // Crea la distribución. Debe colocarse en la sesión del ADMIN!
-		double demanda = nd.sample(); // Obtiene un dato de la distribución. Debe colocarse en la sesión del ADMIN! se hace broadcast del numero al "terminar" la ronda
+		NormalDistribution nd = new NormalDistribution(100,100); // Crea la distribuciï¿½n. Debe colocarse en la sesiï¿½n del ADMIN!
+		double demanda = nd.sample(); // Obtiene un dato de la distribuciï¿½n. Debe colocarse en la sesiï¿½n del ADMIN! se hace broadcast del numero al "terminar" la ronda
 		double producido = Double.parseDouble(tablaResultados[5][ronda].getText()); //Lo que el usuario coloca
-		double inventario = Double.parseDouble(tablaResultados[6][ronda].getText()) + producido - demanda; //Inventario (t) = lo que tenía + lo q entra - lo q sale 
+		double inventario = Double.parseDouble(tablaResultados[6][ronda].getText()) + producido - demanda; //Inventario (t) = lo que tenï¿½a + lo q entra - lo q sale 
 		double trabajadores = Math.round(producido/10); // Producido(t) = 10*Workers(t)
 		double contratos = 0;
 		double despidos = 0;
