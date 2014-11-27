@@ -33,18 +33,35 @@ public class PanelAdmin extends JPanel {
 		panel.add(lblNumeroDeIntegrantes);
 		
 		JComboBox comboBox = new JComboBox();
+		comboBox.addItem("1");
+		comboBox.addItem("2");
+		comboBox.addItem("3");
 		panel.add(comboBox);
+		
 		
 		JLabel lblNumeroDeIteraciones = new JLabel("Numero de iteraciones");
 		panel.add(lblNumeroDeIteraciones);
 		
 		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.addItem("1");
+		comboBox_1.addItem("2");
+		comboBox_1.addItem("3");
+		comboBox_1.addItem("4");
+		comboBox_1.addItem("5");
+		comboBox_1.addItem("6");
+		comboBox_1.addItem("7");
+		comboBox_1.addItem("8");
+		comboBox_1.addItem("9");
 		panel.add(comboBox_1);
 		
 		JLabel lblTiempoDeTimeout = new JLabel("Tiempo para decidir");
 		panel.add(lblTiempoDeTimeout);
 		
 		JComboBox comboBox_2 = new JComboBox();
+		comboBox_2.addItem("30");
+		comboBox_2.addItem("60");
+		comboBox_2.addItem("90");
+		comboBox_2.addItem("120");
 		panel.add(comboBox_2);
 		
 		JPanel panel_1 = new JPanel();
